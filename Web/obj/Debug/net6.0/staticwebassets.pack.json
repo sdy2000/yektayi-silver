@@ -1,0 +1,665 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\css\\bootstrap-rtl.css",
+      "PackagePath": "staticwebassets\\AdminContent\\css\\bootstrap-rtl.css"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\AdminContent\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\AdminContent\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\css\\plugins\\dataTables\\dataTables.bootstrap.css",
+      "PackagePath": "staticwebassets\\AdminContent\\css\\plugins\\dataTables\\dataTables.bootstrap.css"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\css\\plugins\\morris\\morris-0.4.3.min.css",
+      "PackagePath": "staticwebassets\\AdminContent\\css\\plugins\\morris\\morris-0.4.3.min.css"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\css\\plugins\\social-buttons\\social-buttons.css",
+      "PackagePath": "staticwebassets\\AdminContent\\css\\plugins\\social-buttons\\social-buttons.css"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\css\\plugins\\timeline\\timeline.css",
+      "PackagePath": "staticwebassets\\AdminContent\\css\\plugins\\timeline\\timeline.css"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\css\\sb-admin.css",
+      "PackagePath": "staticwebassets\\AdminContent\\css\\sb-admin.css"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\css\\font-awesome.css"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\less\\core.less",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\core.less"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\fixed-width.less"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\font-awesome.less"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\less\\icons.less",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\icons.less"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\less\\larger.less",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\larger.less"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\less\\list.less",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\list.less"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\mixins.less"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\less\\path.less",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\path.less"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\less\\spinning.less",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\spinning.less"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\stacked.less"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\less\\variables.less",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\less\\variables.less"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_core.scss"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_icons.scss"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_larger.scss"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_list.scss"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_path.scss"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_spinning.scss",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_spinning.scss"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\_variables.scss"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\font-awesome\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\AdminContent\\font-awesome\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\AdminContent\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\AdminContent\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\AdminContent\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\AdminContent\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\js\\demo\\dashboard-demo.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\demo\\dashboard-demo.js"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\js\\demo\\flot-demo.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\demo\\flot-demo.js"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\js\\demo\\morris-demo.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\demo\\morris-demo.js"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\js\\jquery-1.10.2.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\jquery-1.10.2.js"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\js\\plugins\\dataTables\\dataTables.bootstrap.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\plugins\\dataTables\\dataTables.bootstrap.js"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\js\\plugins\\dataTables\\jquery.dataTables.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\plugins\\dataTables\\jquery.dataTables.js"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\excanvas.min.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\plugins\\flot\\excanvas.min.js"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\plugins\\flot\\jquery.flot.js"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.pie.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\plugins\\flot\\jquery.flot.pie.js"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.resize.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\plugins\\flot\\jquery.flot.resize.js"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\js\\plugins\\flot\\jquery.flot.tooltip.min.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\plugins\\flot\\jquery.flot.tooltip.min.js"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\js\\plugins\\metisMenu\\jquery.metisMenu.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\plugins\\metisMenu\\jquery.metisMenu.js"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\js\\plugins\\morris\\morris.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\plugins\\morris\\morris.js"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\js\\plugins\\morris\\raphael-2.1.0.min.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\plugins\\morris\\raphael-2.1.0.min.js"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\AdminContent\\js\\sb-admin.js",
+      "PackagePath": "staticwebassets\\AdminContent\\js\\sb-admin.js"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\ProductImage\\image\\224ffcfc90ba4b919a131fb764e5d9ba.png",
+      "PackagePath": "staticwebassets\\ProductImage\\image\\224ffcfc90ba4b919a131fb764e5d9ba.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\ProductImage\\image\\8cdfdd5fc92b438bb7c70f58629a5ff3.jpg",
+      "PackagePath": "staticwebassets\\ProductImage\\image\\8cdfdd5fc92b438bb7c70f58629a5ff3.jpg"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\ProductImage\\image\\Defult.png",
+      "PackagePath": "staticwebassets\\ProductImage\\image\\Defult.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\ProductImage\\thumb\\224ffcfc90ba4b919a131fb764e5d9ba.png",
+      "PackagePath": "staticwebassets\\ProductImage\\thumb\\224ffcfc90ba4b919a131fb764e5d9ba.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\ProductImage\\thumb\\8cdfdd5fc92b438bb7c70f58629a5ff3.jpg",
+      "PackagePath": "staticwebassets\\ProductImage\\thumb\\8cdfdd5fc92b438bb7c70f58629a5ff3.jpg"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\UserAvatar\\image\\0c45bcc1ee8b4727b3cb5f501e72d6d7.jfif",
+      "PackagePath": "staticwebassets\\UserAvatar\\image\\0c45bcc1ee8b4727b3cb5f501e72d6d7.jfif"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\UserAvatar\\image\\4e35e0cc7c924f1db47dc866d94cad47.jpg",
+      "PackagePath": "staticwebassets\\UserAvatar\\image\\4e35e0cc7c924f1db47dc866d94cad47.jpg"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\UserAvatar\\image\\929460e754bb432695c15bc33769b9f8.jfif",
+      "PackagePath": "staticwebassets\\UserAvatar\\image\\929460e754bb432695c15bc33769b9f8.jfif"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\UserAvatar\\image\\af7aab8e6ab3439eb7814e2b74aad584.jpg",
+      "PackagePath": "staticwebassets\\UserAvatar\\image\\af7aab8e6ab3439eb7814e2b74aad584.jpg"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\UserAvatar\\thumb\\0c45bcc1ee8b4727b3cb5f501e72d6d7.jfif",
+      "PackagePath": "staticwebassets\\UserAvatar\\thumb\\0c45bcc1ee8b4727b3cb5f501e72d6d7.jfif"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\UserAvatar\\thumb\\4e35e0cc7c924f1db47dc866d94cad47.jpg",
+      "PackagePath": "staticwebassets\\UserAvatar\\thumb\\4e35e0cc7c924f1db47dc866d94cad47.jpg"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\UserAvatar\\thumb\\929460e754bb432695c15bc33769b9f8.jfif",
+      "PackagePath": "staticwebassets\\UserAvatar\\thumb\\929460e754bb432695c15bc33769b9f8.jfif"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\UserAvatar\\thumb\\Defult.png",
+      "PackagePath": "staticwebassets\\UserAvatar\\thumb\\Defult.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\UserAvatar\\thumb\\af7aab8e6ab3439eb7814e2b74aad584.jpg",
+      "PackagePath": "staticwebassets\\UserAvatar\\thumb\\af7aab8e6ab3439eb7814e2b74aad584.jpg"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\css\\fontim-codes.css",
+      "PackagePath": "staticwebassets\\assets\\css\\fontim-codes.css"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\css\\fontim-ie7.css",
+      "PackagePath": "staticwebassets\\assets\\css\\fontim-ie7.css"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\css\\fontim.mins.css",
+      "PackagePath": "staticwebassets\\assets\\css\\fontim.mins.css"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\css\\fontiran.css",
+      "PackagePath": "staticwebassets\\assets\\css\\fontiran.css"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\css\\menu.css",
+      "PackagePath": "staticwebassets\\assets\\css\\menu.css"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\css\\swiper.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\swiper.min.css"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\eot\\iranyekanwebblack.eot",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\eot\\iranyekanwebblack.eot"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\eot\\iranyekanwebbold.eot",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\eot\\iranyekanwebbold.eot"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\eot\\iranyekanwebextrablack.eot",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\eot\\iranyekanwebextrablack.eot"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\eot\\iranyekanwebextrabold.eot",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\eot\\iranyekanwebextrabold.eot"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\eot\\iranyekanweblight.eot",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\eot\\iranyekanweblight.eot"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\eot\\iranyekanwebmedium.eot",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\eot\\iranyekanwebmedium.eot"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\eot\\iranyekanwebregular.eot",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\eot\\iranyekanwebregular.eot"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\eot\\iranyekanwebthin.eot",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\eot\\iranyekanwebthin.eot"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\svg\\iranyekanwebblack.svg",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\svg\\iranyekanwebblack.svg"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\svg\\iranyekanwebbold.svg",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\svg\\iranyekanwebbold.svg"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\svg\\iranyekanwebextrablack.svg",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\svg\\iranyekanwebextrablack.svg"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\svg\\iranyekanwebextrabold.svg",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\svg\\iranyekanwebextrabold.svg"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\svg\\iranyekanweblight.svg",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\svg\\iranyekanweblight.svg"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\svg\\iranyekanwebmedium.svg",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\svg\\iranyekanwebmedium.svg"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\svg\\iranyekanwebregular.svg",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\svg\\iranyekanwebregular.svg"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\svg\\iranyekanwebthin.svg",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\svg\\iranyekanwebthin.svg"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\ttf\\iranyekanwebblack.ttf",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\ttf\\iranyekanwebblack.ttf"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\ttf\\iranyekanwebbold.ttf",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\ttf\\iranyekanwebbold.ttf"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\ttf\\iranyekanwebextrablack.ttf",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\ttf\\iranyekanwebextrablack.ttf"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\ttf\\iranyekanwebextrabold.ttf",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\ttf\\iranyekanwebextrabold.ttf"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\ttf\\iranyekanweblight.ttf",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\ttf\\iranyekanweblight.ttf"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\ttf\\iranyekanwebmedium.ttf",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\ttf\\iranyekanwebmedium.ttf"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\ttf\\iranyekanwebregular.ttf",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\ttf\\iranyekanwebregular.ttf"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\ttf\\iranyekanwebthin.ttf",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\ttf\\iranyekanwebthin.ttf"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\woff\\iranyekanwebblack.woff",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\woff\\iranyekanwebblack.woff"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\woff\\iranyekanwebbold.woff",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\woff\\iranyekanwebbold.woff"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\woff\\iranyekanwebextrablack.woff",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\woff\\iranyekanwebextrablack.woff"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\woff\\iranyekanwebextrabold.woff",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\woff\\iranyekanwebextrabold.woff"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\woff\\iranyekanweblight.woff",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\woff\\iranyekanweblight.woff"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\woff\\iranyekanwebmedium.woff",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\woff\\iranyekanwebmedium.woff"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\woff\\iranyekanwebregular.woff",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\woff\\iranyekanwebregular.woff"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\font\\iranyekan\\woff\\iranyekanwebthin.woff",
+      "PackagePath": "staticwebassets\\assets\\font\\iranyekan\\woff\\iranyekanwebthin.woff"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\fonts\\fontim.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontim.eot"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\fonts\\fontim.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontim.svg"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\fonts\\fontim.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontim.ttf"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\fonts\\fontim.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontim.woff"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\fonts\\fontim.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontim.woff2"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\image\\F1.png",
+      "PackagePath": "staticwebassets\\assets\\image\\F1.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\image\\Layer 10.png",
+      "PackagePath": "staticwebassets\\assets\\image\\Layer 10.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\image\\Layer 25.png",
+      "PackagePath": "staticwebassets\\assets\\image\\Layer 25.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\image\\Layer 266.png",
+      "PackagePath": "staticwebassets\\assets\\image\\Layer 266.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\image\\Layer 28.png",
+      "PackagePath": "staticwebassets\\assets\\image\\Layer 28.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\image\\Layer 32.png",
+      "PackagePath": "staticwebassets\\assets\\image\\Layer 32.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\image\\Layer 33 copy.png",
+      "PackagePath": "staticwebassets\\assets\\image\\Layer 33 copy.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\image\\Layer 4.png",
+      "PackagePath": "staticwebassets\\assets\\image\\Layer 4.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\image\\Layer 5.png",
+      "PackagePath": "staticwebassets\\assets\\image\\Layer 5.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\image\\Layer 6.png",
+      "PackagePath": "staticwebassets\\assets\\image\\Layer 6.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\image\\Layer 7.png",
+      "PackagePath": "staticwebassets\\assets\\image\\Layer 7.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\image\\Layer 713.png",
+      "PackagePath": "staticwebassets\\assets\\image\\Layer 713.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\image\\Layer 8.png",
+      "PackagePath": "staticwebassets\\assets\\image\\Layer 8.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\image\\Layer 9.png",
+      "PackagePath": "staticwebassets\\assets\\image\\Layer 9.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\image\\bg1.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\bg1.jpg"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\image\\images1.jpg",
+      "PackagePath": "staticwebassets\\assets\\image\\images1.jpg"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\image\\jewelry-logo-ideas-beautiful-92-beautiful-jewellery-logo-designs-inspiration-of-jewelry-logo-ideas.png",
+      "PackagePath": "staticwebassets\\assets\\image\\jewelry-logo-ideas-beautiful-92-beautiful-jewellery-logo-designs-inspiration-of-jewelry-logo-ideas.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\image\\slider1.png",
+      "PackagePath": "staticwebassets\\assets\\image\\slider1.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\img\\Forma 1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Forma 1.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\img\\Layer 713.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Layer 713.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\img\\Vector Smart Object.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Vector Smart Object.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\img\\Vector Smart Object2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\Vector Smart Object2.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\img\\enamad.png",
+      "PackagePath": "staticwebassets\\assets\\img\\enamad.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\img\\gardanband.png",
+      "PackagePath": "staticwebassets\\assets\\img\\gardanband.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\img\\home-icon-1 copy.png",
+      "PackagePath": "staticwebassets\\assets\\img\\home-icon-1 copy.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\img\\home-icon-3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\home-icon-3.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\img\\samandehi.png",
+      "PackagePath": "staticwebassets\\assets\\img\\samandehi.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\img\\title-bottom.png",
+      "PackagePath": "staticwebassets\\assets\\img\\title-bottom.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\img\\title-top.png",
+      "PackagePath": "staticwebassets\\assets\\img\\title-top.png"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\js\\jquery-2.1.1.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-2.1.1.js"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\js\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\js\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\js\\script.js",
+      "PackagePath": "staticwebassets\\assets\\js\\script.js"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\assets\\js\\swiper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\swiper.min.js"
+    },
+    {
+      "Id": "D:\\source\\VS\\YektayiSilver\\Web\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Web.props",
+      "PackagePath": "build\\Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Web.props",
+      "PackagePath": "buildMultiTargeting\\Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Web.props",
+      "PackagePath": "buildTransitive\\Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

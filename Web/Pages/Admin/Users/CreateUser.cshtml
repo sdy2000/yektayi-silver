@@ -1,0 +1,199 @@
+﻿@page
+@using DataLayer.Entities.Users
+@model Web.Pages.Admin.Users.CreateUserModel
+
+@{
+    ViewData["Title"] = "افزودن کاربران جدید";
+}
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">افزودن کاربران جدید</h1>
+    </div>
+</div>
+@if (ViewData["IsSuccess"] != null)
+{
+    <div class="alert alert-danger">
+        <p class="help-block">عملیات با شکست مواجه شد</p>
+    </div>
+}
+<form method="post" enctype="multipart/form-data">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    اطلاعات کاربر
+                </div>
+                <!-- /.panel-heading -->
+                <div class="panel-body">
+                    <!-- Nav tabs -->
+
+                    <div class="form-group col-md-8">
+                        <label>نام کاربری :</label>
+                        <input type="text" asp-for="CreateUser.UserName" class="form-control">
+                        <span asp-validation-for="CreateUser.UserName" class="text-danger"></span>
+                        <br />
+                    </div>
+
+                    <div class="form-group col-md-8">
+                        <label>ایمیل :</label>
+                        <input type="email" asp-for="CreateUser.Email" class="form-control">
+                        <span asp-validation-for="CreateUser.Email" class="text-danger"></span>
+                        <br />
+                    </div>
+
+                    <div class="form-group col-md-8">
+                        <label>کلمه عبور :</label>
+                        <input type="text" asp-for="CreateUser.Password" class="form-control">
+                        <span asp-validation-for="CreateUser.Password" class="text-danger"></span>
+                        <br />
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label>نام  :</label>
+                        <input type="text" asp-for="CreateUser.FirstName" class="form-control">
+                        <span asp-validation-for="CreateUser.FirstName" class="text-danger"></span>
+                        <br />
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label>نام خانوادگی :</label>
+                        <input type="text" asp-for="CreateUser.LastName" class="form-control">
+                        <span asp-validation-for="CreateUser.LastName" class="text-danger"></span>
+                        <br />
+                    </div>
+
+                    <div class="form-group col-md-8">
+                        <label>شماره موبایل :</label>
+                        <input type="number" asp-for="CreateUser.PhonNumber" class="form-control">
+                        <span asp-validation-for="CreateUser.PhonNumber" class="text-danger"></span>
+                        <br />
+                    </div>
+
+                    <div class="form-group col-md-5">
+                        <label>وضعیت :</label>
+                        <select asp-for="CreateUser.IsActive" class="form-control">
+                            <option value="2">انتخاب کنید</option>
+                            <option value="1">فعال</option>
+                            <option value="2">غیر فعال</option>
+                            <option value="3">فعال سازی با ایمیل</option>
+                        </select>
+                        <span asp-validation-for="CreateUser.IsActive" class="text-danger"></span>
+                        <br />
+                    </div>
+
+                    <div class="form-group col-md-4">
+                        <label>جنسیت :</label>
+                        <select asp-for="CreateUser.GenderId" class="form-control">
+                            <option value="0">انتخاب کنید</option>
+                            <option value="1">مرد</option>
+                            <option value="2">زن</option>
+                            <option value="3">غیره</option>
+                        </select>
+                        <span asp-validation-for="CreateUser.GenderId" class="text-danger"></span>
+                        <br />
+                    </div>
+
+
+                    <div class="form-group col-md-8">
+                        <label>کیف پول کاربر :</label>
+                        <input type="number" asp-for="CreateUser.AddWallet" class="form-control" value="0">
+                        <span asp-validation-for="CreateUser.AddWallet" class="text-danger"></span>
+                        <p class="help-block">*درصورت وارد کردن مقدار کیف پول کاربر شارژ خواهد شد!</p>
+                        <br />
+                    </div>
+
+
+
+                </div>
+                <!-- /.panel-body -->
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            تصویر پروفایل
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body align-items-center">
+                            <!-- Nav tabs -->
+                            <div class="form-group mx-auto">
+                                <img src="/UserAvatar/thumb/Defult.png" class="thumbnail" id="imgUser"
+                                     alt="User Imag" title="User Image" style="max-width:100%;" />
+                            </div>
+                            <div class="form-group">
+                                <label>انتخاب تصویر :</label>
+                                <input asp-for="CreateUser.UserAvatar" type="file">
+                                <span asp-validation-for="CreateUser.UserAvatar" class="text-danger"></span>
+                                <br />
+                            </div>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                </div>
+
+                @{
+                    List<Role> roles = ViewData["Roles"] as List<Role>;
+                }
+
+
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            نقش های کاربر
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <!-- Nav tabs -->
+                            <div class="form-group">
+
+                                @foreach (Role role in roles)
+                                {
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" name="SelectedRoles" value="@role.RoleId">@role.RoleTitle
+                                        </label>
+                                    </div>
+                                }
+
+                            </div>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-1">
+            <input type="submit" class="btn btn-success" value="افزودن کاربر" />
+        </div>
+    </div>
+</form>
+
+
+
+@section Scripts{
+    <script>
+
+        function readURL(input) {
+
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#imgUser').attr('src', e.target.result);
+                }
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        $("#CreateUser_UserAvatar").change(function () {
+            readURL(this);
+        });
+    </script>
+}

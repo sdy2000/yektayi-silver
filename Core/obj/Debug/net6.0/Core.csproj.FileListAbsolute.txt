@@ -1,0 +1,17 @@
+D:\source\VS\YektayiSilver\Core\bin\Debug\net6.0\Core.deps.json
+D:\source\VS\YektayiSilver\Core\bin\Debug\net6.0\Core.runtimeconfig.json
+D:\source\VS\YektayiSilver\Core\bin\Debug\net6.0\Core.dll
+D:\source\VS\YektayiSilver\Core\bin\Debug\net6.0\Core.pdb
+D:\source\VS\YektayiSilver\Core\bin\Debug\net6.0\DataLayer.dll
+D:\source\VS\YektayiSilver\Core\bin\Debug\net6.0\DataLayer.pdb
+D:\source\VS\YektayiSilver\Core\obj\Debug\net6.0\Core.csproj.AssemblyReference.cache
+D:\source\VS\YektayiSilver\Core\obj\Debug\net6.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\VS\YektayiSilver\Core\obj\Debug\net6.0\Core.AssemblyInfoInputs.cache
+D:\source\VS\YektayiSilver\Core\obj\Debug\net6.0\Core.AssemblyInfo.cs
+D:\source\VS\YektayiSilver\Core\obj\Debug\net6.0\Core.csproj.CoreCompileInputs.cache
+D:\source\VS\YektayiSilver\Core\obj\Debug\net6.0\Core.csproj.CopyComplete
+D:\source\VS\YektayiSilver\Core\obj\Debug\net6.0\Core.dll
+D:\source\VS\YektayiSilver\Core\obj\Debug\net6.0\refint\Core.dll
+D:\source\VS\YektayiSilver\Core\obj\Debug\net6.0\Core.pdb
+D:\source\VS\YektayiSilver\Core\obj\Debug\net6.0\Core.genruntimeconfig.cache
+D:\source\VS\YektayiSilver\Core\obj\Debug\net6.0\ref\Core.dll

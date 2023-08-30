@@ -1,0 +1,109 @@
+﻿@page "{id}"
+@model Web.Pages.Admin.Users.DeleteUserModel
+@using Core.Convertors
+@using DataLayer.Entities.Users
+@{
+    ViewData["Title"] = "حذف کاربر";
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">حذف کاربر</h1>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                اطلاعات کاربر
+            </div>
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+                <!-- Nav tabs -->
+                <dl class="dl-horizontal">
+                    <dt>نام کاربری :</dt>
+                    <dd>@Model.DeleteUser.UserName</dd>
+                    <br />
+
+                    <dt>ایمیل کاربری :</dt>
+                    <dd>@Model.DeleteUser.Email</dd>
+                    <br />
+
+                    @if (Model.DeleteUser.FirstName != null)
+                    {
+                        <dt>نام :</dt>
+                        <dd>@Model.DeleteUser.FirstName</dd>
+                        <br />
+                    }
+
+                    @if (Model.DeleteUser.LastName != null)
+                    {
+                        <dt>انام خانوادگی :</dt>
+                        <dd>@Model.DeleteUser.LastName</dd>
+                        <br />
+                    }
+
+
+                    @if (Model.DeleteUser.PhonNumber != null)
+                    {
+                        <dt>شماره تماس :</dt>
+                        <dd>@Model.DeleteUser.PhonNumber</dd>
+                        <br />
+                    }
+
+                    @if (Model.DeleteUser.Gender != null)
+                    {
+                        <dt>جنسیت :</dt>
+                        <dd>@Model.DeleteUser.Gender</dd>
+                        <br />
+                    }
+                    <dt>تاریخ ثبت نام :</dt>
+                    <dd>@Model.DeleteUser.RegisterDate.ToShamsi()</dd>
+                    <br />
+
+                    @*@if (model.deleteuser.userroles != null)
+                    {
+                        <dt>نقش های کاربر :</dt>
+                        <dd>
+                            @foreach (var item in model.deleteuser.userroles){
+                                @foreach(var role in roles){
+                                    if(item ==role.roleid){
+                                        @role.roletitle 
+                                    }
+                                }
+                               <i> - </i>
+                            }
+                        </dd>
+                        <br />
+                    }*@
+                    <br />
+                    <dt></dt>
+                    <dd>
+                        <form method="post">
+                            <input type="hidden" asp-for="DeleteUser.UserId" />
+
+                            <input type="submit" class="btn btn-danger" value="حذف کاربر" />
+                        </form>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                تصویر پروفایل
+            </div>
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+                <!-- Nav tabs -->
+                <div class="form-group">
+                    <img src="/UserAvatar/thumb/@Model.DeleteUser.UserAvatar" class="thumbnail" id="imgUser"
+                         alt="User Imag" title="User Image" style="width:100%;" />
+                </div>
+            </div>
+            <!-- /.panel-body -->
+        </div>
+    </div>
+</div>

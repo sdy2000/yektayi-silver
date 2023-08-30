@@ -1,0 +1,235 @@
+﻿@page "{id}"
+@model Web.Pages.Admin.Products.EditProductModel
+@{
+    ViewData["Title"] = "افزودن محصول جدید";
+}
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">افزودن محصول جدید</h1>
+    </div>
+</div>
+@if (ViewData["IsSuccess"] != null)
+{
+    <div class="alert alert-danger">
+        <p class="help-block">عملیات با شکست مواجه شد</p>
+    </div>
+}
+<form method="post" enctype="multipart/form-data">
+
+    <input type="hidden" asp-for="EditProduct.ProductId" />
+    <input type="hidden" asp-for="EditProduct.OldMainProductImage" />
+
+
+    <div class="row">
+        <div class="col-md-7">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    اطلاعات دوره
+                </div>
+                <!-- /.panel-heading -->
+                <div class="panel-body">
+                    <!-- Nav tabs -->
+
+
+
+                    <div class="form-group col-md-8">
+                        <label>عنوان محصول :</label>
+                        <input type="text" asp-for="EditProduct.ProductTitle" class="form-control">
+                        <span asp-validation-for="EditProduct.ProductTitle " class="text-danger"></span>
+                    </div>
+
+
+                    <div class="form-group col-md-5">
+                        <label>گروه اصلی :</label>
+                        <select asp-for="EditProduct.GroupId" asp-items="@(ViewData["Groups"] as SelectList)" class="form-control">
+                        </select>
+                    </div>
+
+
+                    <div class="form-group col-md-5">
+                        <label>زیر گروه :</label>
+                        <select asp-for="EditProduct.SubGroupId" asp-items="@(ViewData["SubGroups"] as SelectList)" class="form-control">
+                        </select>
+                        <span asp-validation-for="EditProduct.SubGroupId" class="text-danger"></span>
+                    </div>
+
+
+                    <div class="form-group col-md-5">
+                        <label>قروشنده</label>
+                        <select asp-for="EditProduct.SellerId" asp-items="@(ViewData["Seller"] as SelectList)" class="form-control">
+                        </select>
+                        <span asp-validation-for="EditProduct.SellerId" class="text-danger"></span>
+                    </div>
+
+
+                    <div class="form-group col-md-5">
+                        <label>جنسیت محصول</label>
+                        <select asp-for="EditProduct.ProductGenderId" class="form-control">
+                            <option value="3">انتخاب کنید</option>
+                            <option value="1">مردانه</option>
+                            <option value="2">زنانه</option>
+                            <option value="3">بدون تفاوت</option>
+                        </select>
+                        <span asp-validation-for="EditProduct.ProductGenderId" class="text-danger"></span>
+                    </div>
+
+
+                    <div class="form-group col-md-11">
+                        <label>شرح کوتاه محصول :</label>
+                        <input asp-for="EditProduct.ProductShortDescription" class="form-control" maxlength="70" />
+                        <p class="help-block">* حداکثر 70 کاراکتر وارد شود .</p>
+                        <span asp-validation-for="EditProduct.ProductShortDescription" class="text-danger"></span>
+                    </div>
+
+
+                    <div class="form-group col-md-11">
+                        <label>شرح محصول :</label>
+                        <textarea asp-for="EditProduct.ProductDescription" class="form-control" rows="20"></textarea>
+                        <span asp-validation-for="EditProduct.ProductDescription" class="text-danger"></span>
+                    </div>
+
+
+                    <div class="form-group col-md-5">
+                        <label>قیمت محصول :</label>
+                        <input type="number" asp-for="EditProduct.ProductPrice" class="form-control">
+                        <span asp-validation-for="EditProduct.ProductPrice" class="text-danger"></span>
+                    </div>
+
+
+                    <div class="form-group col-md-5">
+                        <label>وزن محصول :</label>
+                        <input type="number" asp-for="EditProduct.Weight" class="form-control">
+                        <p class="help-block">* بر حست گرم .</p>
+                        <span asp-validation-for="EditProduct.Weight" class="text-danger"></span>
+                    </div>
+
+
+                    <div class="form-group col-md-8">
+                        <label>کلمات کلیدی : </label>
+                        <input type="text" asp-for="EditProduct.Tags" class="form-control">
+                        <p class="help-block">کلمات را با "-" جدا کنید .</p>
+                        <span asp-validation-for="EditProduct.Tags" class="text-danger"></span>
+                    </div>
+
+
+                </div>
+                <!-- /.panel-body -->
+
+
+            </div>
+        </div>
+        <div class="col-md-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            تصویر محصول
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <!-- Nav tabs -->
+                            <div class="form-group">
+                                <img src="/ProductImage/image/@Model.EditProduct.OldMainProductImage"
+                                     class="thumbnail" id="imgProduct" alt="Product Imag"
+                                     title="Product Image" style="max-width:100%;" />
+                            </div>
+                            <div class="form-group">
+                                <label>انتخاب محصول :</label>
+                                <input asp-for="EditProduct.MainProductImage" name="ImgeUp" type="file">
+                                <span asp-validation-for="EditProduct.MainProductImage" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            وضعیت محصول
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <!-- Nav tabs -->
+
+
+
+                            <div class="form-group col-md-12">
+                                <label>وضعیت محصول :</label>
+                                <select asp-for="EditProduct.StatusId" class="form-control">
+                                    <option value="3">انتخاب کنید</option>
+                                    <option value="1">موجود</option>
+                                    <option value="2">ناموجود</option>
+                                    <option value="3">به زودی</option>
+
+                                </select>
+                                <span asp-validation-for="EditProduct.StatusId" class="text-danger"></span>
+                            </div>
+
+                            <div class="form-group col-md-12">
+                                <label>تعداد محصول :</label>
+                                <input type="number" asp-for="EditProduct.ProductStock" class="form-control">
+                            </div>
+
+
+
+
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-5">
+            <input type="submit" class="btn btn-success" value="افزودن دوره" />
+            <div asp-validation-summary="All" class="text-danger"></div>
+        </div>
+    </div>
+</form>
+
+
+
+@section Scripts{
+    <script>
+
+        $("#EditProduct_GroupId").change(function () {
+            $("#EditProduct_SubGroupId").empty();
+            $.getJSON("/Home/GetSubGroups/" + $("#EditProduct_GroupId :selected").val(),
+                function (data) {
+                    $.each(data,
+                        function () {
+                            $("#EditProduct_SubGroupId").append('<option value=' + this.value + '>' + this.text + '</option>');
+                        });
+
+                });
+        });
+
+
+
+        function readURL(input) {
+
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#imgProduct').attr('src', e.target.result);
+                }
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        $("#EditProduct_MainProductImage").change(function () {
+            readURL(this);
+        });
+    </script>
+
+}

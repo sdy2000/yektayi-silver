@@ -1,0 +1,114 @@
+﻿@model Core.DTOs.RegisterViewModel
+@{
+    ViewData["Title"] = "ثبت نام";
+}
+
+<br />
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ul class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">نقره یکتائی</a></li>
+            <li class="breadcrumb-item active" aria-current="page">@ViewData["Title"]</li>
+        </ul>
+    </nav>
+</div>
+
+
+<main class="container">
+    <div class="row">
+        <div class="register-site col-lg-6">
+            <div class="register-panel-page">
+                <div class="register-panel-top">
+                    <div class="register-panel-title">
+                        <h2>
+                            ثبت نام در نقره یکتائی
+                        </h2>
+                        <h3>
+                            اگر قبلا با ایمیل ثبت ‌نام کرده‌اید، وارد حساب کاربری خود شوید .
+                        </h3>
+                        <p>
+                            قبلا درنقره یکتائی ثبت ‌نام کرده‌اید؟
+                            <a href="/Login">
+                                وارد شویــد
+                            </a>
+                        </p>
+                    </div>
+                    <div class="register-panel-img">
+                        <img src="assets/img/Vector Smart Object2.png" alt="">
+                    </div>
+                </div>
+                <form class="register-form" method="post" asp-action="Register">
+
+
+                    <div class="register-form-input">
+                        <input id="register-username" asp-for="@Model.UserName" type="text" placeholder="نام کاربری" autofocus="">
+                        <div class="register-form-context">
+                            <i class="fa fa-user "></i>
+                        </div>
+                    </div>
+                    <span asp-validation-for="@Model.UserName" class="text-danger"></span>
+                    <br />
+
+                    <div class="register-form-input">
+                        <input type="email" asp-for="@Model.Email" placeholder="ایمیل">
+                        <div class="register-form-context">
+                            <i class="fa fa-envelope-o "></i>
+                        </div>
+                    </div>
+                    <span asp-validation-for="@Model.Email" class="text-danger"></span>
+                    <br />
+
+                    <div class="register-form-input">
+                        <input id="register-password" type="password" asp-for="@Model.Password" placeholder="کلمه عبور">
+                        <div class="register-form-context">
+                            <i class="fa fa-lock "></i>
+                        </div>
+                    </div>
+                    <span asp-validation-for="@Model.Password" class="text-danger"></span>
+                    <br />
+
+                    <div class="register-form-input">
+                        <input id="register-password" type="Password" asp-for="@Model.RePassword" placeholder="تکرار کلمه عبور">
+                        <div class="register-form-context">
+                            <i class="fa fa-lock "></i>
+                        </div>
+                    </div>
+                    <span asp-validation-for="@Model.RePassword" class="text-danger"></span>
+                    <br />
+                    <br />
+
+                    <label class="register-form-checkbox">
+                        <input type="checkbox" asp-for="@Model.Rules">
+                        <span class="register-checkbox-link">
+                            <a href="/Rules">شرایط و قوانین</a>
+                            استفاده از سرویس های سایت
+                            <a href="/">نقره یکتائی</a>
+                            را مطالعه نموده و با کلیه موارد آن موافقم.
+                        </span>
+                    </label>
+                    <br />
+                    <span asp-validation-for="@Model.Rules" class="text-danger"></span>
+                    <br />
+
+                    <input type="submit" id="submitForm" hidden />
+                    <div class="register-page-button">
+                        <a href="#" onclick="document.getElementById('submitForm').click()" class="reg-cta">
+                            <i class="fa fa-user-plus" aria-hidden="true"></i>
+                            <span>
+                                ثبت نام در نقره یکتایی
+                            </span>
+                        </a>
+                    </div>
+                    <br />
+
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
+<br />
+<br />
+<br />
+

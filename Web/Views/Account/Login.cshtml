@@ -1,0 +1,134 @@
+﻿@model Core.DTOs.LoginViewModel
+@{
+    ViewData["Title"] = "ورود";
+}
+
+<br />
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ul class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">نقره یکتائی</a></li>
+            <li class="breadcrumb-item active" aria-current="page">@ViewData["Title"]</li>
+        </ul>
+    </nav>
+</div>
+
+
+<main class="container">
+    <div class="row">
+        <div class="register-site col-lg-6">
+            <div class="register-panel-page">
+
+
+                @if (ViewBag.EditProfile == true)
+                {
+                    <div class="alert alert-warning">
+                        <p class="help-block">ایمیل شما با موفقیت تغیر کرد , جهت ادامه روند ایمیل وارد شده را تایید نمایید !</p>
+                    </div>
+                }
+                @if (ViewBag.Login == 1)
+                {
+                    <div class="alert alert-success">
+                        <p class="help-block">ورود با موفقیت انجام شد !</p>
+                    </div>
+                    <script>
+                        // Your delay in milliseconds
+                        var delay = 3000;
+                        setTimeout(function () { window.location = "/UserPanel"; }, delay);
+                    </script>
+                }
+                else if (ViewBag.Login == 2)
+                {
+                    <div class="alert alert-danger">
+                        <p class="help-block">حساب کاربری شما فعال نمی باشد !</p>
+                    </div>
+                }
+                else if (ViewBag.Login == 3)
+                {
+                    <div class="alert alert-danger">
+                        <p class="help-block">کاربری با مشخصات وارد شده موجود نمی باشد !</p>
+                    </div>
+                }
+
+                @if (ViewBag.ChengPassword == true)
+                {
+                    <div class="alert alert-success">
+                        <p>کلمه عبور شما با موفقیت تغیر کرد</p>
+                    </div>
+                }
+
+
+                <div class="register-panel-top">
+                    <div class="register-panel-title">
+                        <h2>
+                            ورود به نقره یکتائی
+                        </h2>
+                        <p>
+                            کلمه عبور خود را فراموش کرده اید ؟
+                            <a href="/ForgotPassword">
+                            کلمه عبور را فراموش کرده ام !    
+                            </a>
+                        </p>
+                        <p>
+                            درنقره یکتائی  ثبت‌نام نکرده‌اید؟
+                            <a href="/Register">
+                                ثبت نام کنـید
+                            </a>
+                        </p>
+                    </div>
+                    <div class="register-panel-img">
+                        <img src="assets/img/Vector Smart Object2.png" alt="">
+                    </div>
+                </div>
+                <form class="register-form" method="post" asp-action="Login">
+
+
+
+
+                    <div class="register-form-input">
+                        <input type="email" asp-for="@Model.Email" placeholder="ایمیل">
+                        <div class="register-form-context">
+                            <i class="fa fa-envelope-o "></i>
+                        </div>
+                    </div>
+                    <span asp-validation-for="@Model.Email" class="text-danger"></span>
+                    <br />
+
+                    <div class="register-form-input">
+                        <input id="register-password" type="password" asp-for="@Model.Password" placeholder="کلمه عبور">
+                        <div class="register-form-context">
+                            <i class="fa fa-lock "></i>
+                        </div>
+                    </div>
+                    <span asp-validation-for="@Model.Password" class="text-danger"></span>
+                    <br />
+
+                    <label class="register-form-checkbox">
+                        <input name="subscribe_newsletter" type="checkbox">
+                        <span class="register-checkbox-link">
+
+                            مرا به خاطر بسپار
+                        </span>
+                    </label>
+
+
+                    <input type="submit" id="submitForm" hidden />
+                    <div class="register-page-button">
+                        <a href="#" onclick="document.getElementById('submitForm').click()" class="reg-cta">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                            <span>
+                                ورود در نقره یکتایی
+                            </span>
+                        </a>
+                    </div>
+                    <br />
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
+<br />
+<br />
+<br />

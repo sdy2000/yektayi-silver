@@ -1,0 +1,156 @@
+﻿@model Core.DTOs.EditProfileViewModel
+@{
+    ViewData["Title"] = "ویرایش حساب کاربری" + " " + User.Identity.Name;
+}
+
+
+
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ul class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">نقره یکتائی</a></li>
+            <li class="breadcrumb-item active" aria-current="page"> پنل کاربری </li>
+        </ul>
+    </nav>
+</div>
+<br />
+
+
+<main>
+    <div class="container">
+        <div class="user-account">
+            <div class="row">
+                <partial name="_SidBar" />
+                <div class="col-md-9 col-sm-8 col-xs-12">
+                    <section class="breadcrumb">
+                        <header><h1 class="h3"> ویرایش حساب کاربری </h1></header>
+                        <div class="inner form-layer">
+                            <form method="post" asp-action="EditProfile" enctype="multipart/form-data"> 
+
+                                <input type="hidden" asp-for="UserAvatar" />
+
+                                <div class="row">
+
+                                    <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                                        <img src="/UserAvatar/thumb/@Model.UserAvatar" class="thumbnail imgUser" id="imgUser"
+                                             alt="@Model.UserAvatar" title="User Image">
+                                        <div class="input-group">
+                                            <span class="input-group-addon" id="username"><i class="fa fa-picture"></i></span>
+                                            <input type="file" id="imgUserUp" asp-for="UserImage" class="form-control">
+                                        </div>
+                                        <span asp-validation-for="@Model.UserImage" class="text-danger"></span>
+                                        <br />
+                                    </div>
+
+
+                                    <div class="col-md-6 col-sm-6 col-sm-12">
+                                        <div class="input-group">
+                                            <span class="input-group-append"><i class="fa fa-user"></i></span>
+                                            <input type="text" class="form-control" asp-for="@Model.FirstName" placeholder="نام">
+                                        </div>
+                                        <span asp-validation-for="@Model.FirstName" class="text-danger"></span>
+                                        <br />
+                                    </div>
+
+
+                                    <div class="col-md-6 col-sm-6 col-sm-12">
+                                        <div class="input-group">
+                                            <span class="input-group-append"><i class="fa fa-user"></i></span>
+                                            <input type="text" class="form-control" asp-for="@Model.LastName" placeholder="نام خانوادگی">
+                                        </div>
+                                        <span asp-validation-for="@Model.LastName" class="text-danger"></span>
+                                        <br />
+                                    </div>
+
+
+                                    <div class="col-md-7 col-sm-8 col-sm-12">
+                                        <div class="input-group">
+                                            <span class="input-group-append"><i class="fa fa-phone"></i></span>
+                                            <input type="number" class="form-control" asp-for="@Model.PhonNumber" placeholder="شماره تماس">
+                                        </div>
+                                        <span asp-validation-for="@Model.PhonNumber" class="text-danger"></span>
+                                        <br />
+                                    </div>
+
+
+                                    <div class="col-md-7 col-sm-8 col-sm-12">
+                                        <div class="input-group">
+                                            <span class="input-group-append"><i class="fa fa-envelope-o"></i></span>
+                                            <input type="email" class="form-control" asp-for="@Model.Email" placeholder="ایمیل">
+                                        </div>
+                                        <p class="text-danger h6">* در صورت تغیر ایمیل کد فعال سازی به ایمیل جدید ارسال خواهد شد !</p>
+                                        <span asp-validation-for="@Model.Email" class="text-danger"></span>
+                                        <br />
+                                    </div>
+
+
+                                    <div class="col-md-7 col-sm-8 col-sm-12">
+                                        <div class="input-group">
+                                            <span class="input-group-append"><i class="fa fa-transgender"></i></span>
+                                            <select class="form-control" asp-for="GenderId" asp-items="@(ViewData["Genders"] as SelectList)">
+
+                                            </select>
+                                        </div>
+                                        <span asp-validation-for="@Model.GenderId" class="text-danger"></span>
+                                        <br />
+                                    </div>
+
+
+                                    <div class="col-md-7 col-sm-8 col-xs-12">
+                                        <div class="link">
+                                            <a href="/EditPassword"> <i class="fa fa-lock-password"></i> تغیر کلمه عبور </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+
+
+
+                                <input type="submit" id="submitForm" hidden />
+                                <div class="register-page-button">
+                                    <a href="#" onclick="document.getElementById('submitForm').click()" class="reg-cta">
+                                        <i class="fa fa-user-edit" aria-hidden="true"></i>
+                                        <span>
+                                            ویرایش اطلاعات
+                                        </span>
+                                    </a>
+                                </div>
+                                <br />
+
+
+
+                            </form>
+
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+@section Scripts
+    {
+    <script>
+
+        function readURL(input) {
+
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#imgUser').attr('src', e.target.result);
+                }
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+
+        $("#imgUserUp").change(function () {
+            readURL(this);
+        });
+    </script>
+}

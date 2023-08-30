@@ -1,0 +1,55 @@
+﻿@{
+    ViewData["Title"] = "نتیجه پرداخت";
+}
+
+
+
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ul class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">نقره یکتائی</a></li>
+            <li class="breadcrumb-item active" aria-current="page"> نتیجه پرداخت </li>
+        </ul>
+    </nav>
+</div>
+
+<br />
+
+
+<main>
+    <div class="container">
+        <div class="row  align-items-center">
+            <div class="col-md-6 col-sm-6 col-xs-12 mx-auto">
+                <section class="wallet-section">
+                    <div class="container  text-center">
+
+                        <header><h2 class="h3"> نتیجه پرداخت </h2></header>
+                        <hr />
+                        <div class="form-layer">
+
+                            @if (ViewBag.IsSuccess == true)
+                            {
+                                <div class="alert alert-success">
+                                    <h5>پرداخت با موفقیت انجام شد !</h5>
+                                    <p>کد پیگیری : @ViewBag.Code </p>
+                                </div>
+                            }
+                            else
+                            {
+                                <div class="alert alert-danger">
+                                    <h5>پرداخت با شکست انجام شد !</h5>
+                                </div>
+                            }
+                            <br />
+                            <a href="/UserPanel" class="btn btn-block btn-success">بازگشت به پنل کاربری </a>
+                            <br />
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</main>
+<br />
+<br />

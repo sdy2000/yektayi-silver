@@ -1,0 +1,108 @@
+﻿<header>
+    <div class="container-fluid top-bar">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="log-reg-panel col-lg-6 col-md-6 col-sm-12">
+                       @if(User.Identity.IsAuthenticated){
+                            <ul>
+                                <li>
+                                    <a class="register-panel" href="/UserPanel">
+                                        <i class="fa fa-user-1" aria-hidden="true"></i>
+                                        @User.Identity.Name , خوش آمدید
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="login-panel" href="/Logout">
+                                        <i class="fa fa-sign-out " aria-hidden="true"></i>
+                                        خروج
+                                    </a>
+                                </li>
+                            </ul>
+                       }
+                       else{
+                            <ul>
+                                <li>
+                                    <a class="register-panel" href="/Register">
+                                        <i class="fa fa-user-1" aria-hidden="true"></i>
+                                        ثبت نام
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="login-panel" href="/Login">
+                                        <i class="fa fa-sign-in " aria-hidden="true"></i>
+                                        ورود
+                                    </a>
+                                </li>
+                            </ul>
+                       }
+                    </div>
+                    <div class="social-network col-lg-6 col-md-6 col-sm-12">
+                        <a href="#">
+                            <i class="fa fa-facebook-1" aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-instagram-filled " aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa fa-twitter-1" aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-linkedin-1 " aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-tumbler " aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-dribbble " aria-hidden="true"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa fa-skype-1 " aria-hidden="true"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container header-panel">
+        <div class="row">
+            <div class="site-logo col-lg-4 col-md-12 col-sm-12">
+                <div class="logo-img">
+                    <a href="/">
+                        <img class="img-fluid" src="/assets/img/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="logo-title">
+                    <h1>
+
+                        نقره یکتائی
+                    </h1>
+                    <h2>
+                        ارائه جدیدترین مدل های انواع نقره جات و بدلیجات
+                    </h2>
+                </div>
+            </div>
+            <div class="search-panel col-lg-6 col-md-8 col-sm-6">
+                <form action="/search">
+                    <input id="search" type="search" placeholder="جستجو کنید ...">
+                    <button>
+                        <i class="fa fa-search"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="cart-panel col-lg-2 col-md-4 col-sm-6">
+                <a href="#">
+                    <div class="cart-text">
+                        <span class="cart-number">12</span>
+                        <i class="fa fa-shopping-basket "></i>
+                        <p>
+                            <span>0</span>
+                            تومان
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</header>

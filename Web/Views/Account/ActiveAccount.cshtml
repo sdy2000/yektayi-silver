@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "فعال سازی حساب کاربری";
+}
+
+<br />
+<div class="container">
+    <nav aria-label="breadcrumb">
+        <ul class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">نقره یکتائی</a></li>
+            <li class="breadcrumb-item active" aria-current="page">@ViewData["Title"]</li>
+        </ul>
+    </nav>
+</div>
+
+
+<main class="container">
+    <div class="row">
+        <div class="register-site col-lg-6 ">
+            <div class="register-panel-page">
+                <div class="register-panel-title text-center">
+                    <h2>
+                        فعال سازی حساب کاربری
+                    </h2>
+                    @if (ViewBag.IsActive)
+                    {
+                        <div class="alert alert-success ">
+                            <p>
+                                حساب کاربری شما با موفقیت فعال شد
+                            </p>
+                            <p>
+                                <a href="/login">ورود به سایت</a>
+                            </p>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="alert alert-danger ">
+                            <p>
+                                حساب کاربری با مشخصات ارسال شده یافت نشد !
+                            </p>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<br />
+<br />
+<br />
+
+

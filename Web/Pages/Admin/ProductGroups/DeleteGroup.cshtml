@@ -1,0 +1,43 @@
+﻿@page "{id}"
+@model Web.Pages.Admin.ProductGroups.DeleteGroupModel
+@{
+    ViewData["Title"] = "حذف گروه";
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <h1 class="page-header">حذف گروه</h1>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                اطلاعات گروه
+            </div>
+            <!-- /.panel-heading -->
+            <div class="panel-body">
+                <!-- Nav tabs -->
+                <dl class="dl-horizontal">
+
+                    <dt>عنوان گروه :</dt>
+                    <dd>@Model.ProductGroups.GroupTitle</dd>
+                    <br />
+
+
+                    <dt>
+                        <a href="/Admin/Role" class="btn btn-info">انصراف</a>
+                    </dt>
+                    <dd>
+                        <form method="post">
+                            <input type="hidden" asp-for="ProductGroups.GroupId" />
+
+                            <input type="submit" class="btn btn-danger" value="حذف گروه" />
+                        </form>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,44 @@
+﻿@using Core.Convertors
+@using Core.DTOs
+@using Core.Services.Interfaces
+@inject IUserService _userSerivce
+
+@{
+    SideBarUserPanelViewModel user = _userSerivce.GetSideBarUserPanelData(User.Identity.Name) as SideBarUserPanelViewModel;
+}
+<div class="col-md-3 col-sm-4 col-xs-12">
+    <aside class="breadcrumb">
+
+       <div class="row">
+            <div class="col-md-12 col-sm-12 col-xl-12">
+                <div class="img-thumbnail text-center">
+                    <a href="/UserPanel/EditProfile" class="change-image"><i class="zmdi zmdi-edit"></i></a>
+                    <img src="/UserAvatar/thumb/@user.UserAvatar" alt="@user.UserAvatar" title="@user.UserName">
+                </div>
+                <div class="text-center">
+                    <span>
+                        @user.UserName
+                    </span>
+                    <br />
+                    <span> عضویت : @user.RegisterDate.ToShamsi() </span>
+                </div>
+            </div>
+
+
+            <div class="col-md-12 col-sm-12 col-xl-12">
+                <header><h3> میز کار </h3></header>
+                <div class="inner">
+                    <ul>
+                        <li><a href="/UserPanel"> مشاهده حساب کابری </a></li>
+                        <li><a href="/EditProfile"> ویرایش حساب کابری </a></li>
+                        <li><a href="/EditPassword"> تغییر رمز عبور </a></li>
+                        <li><a href="/Wallet"> کیف پول  </a></li>
+                        <li><a href=""> تنظیمات حساب کاربری </a></li>
+                        <li><a href="/Logout"> خروج از حساب کاربری </a></li>
+                    </ul>
+                </div>
+            </div>
+       </div>
+
+    </aside>
+</div>
